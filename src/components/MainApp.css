@@ -1,0 +1,96 @@
+* {
+	transition: all 0.3s;
+	outline: none;
+}
+
+body {
+	color: white;
+	transition: all 0.3s;
+	background-color: #272727;
+}
+
+.search-input {
+	padding: 6px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.search-box {
+	background-color: rgba(20, 20, 20, 1);
+	padding: 8px;
+	width: 300px;
+	margin: 5px;
+	border: none;
+	color: white;
+	border-radius: 3px;
+	transition: all 0.3s;
+}
+
+.search-box:hover,
+.search-box:active {
+	width: 400px;
+	background-color: rgba(25, 25, 25, 1);
+}
+
+button.search-button {
+	padding: 5px;
+	border: none;
+	transition: all 0.3s;
+	border-radius: 3px;
+}
+
+/* button:hover, */
+button:active {
+	transform: scale(0.95);
+}
+
+.main-content {
+	width: 100%;
+	height: max-content;
+}
+
+.main-card {
+	width: 50%;
+	height: 250px;
+	backdrop-filter: blur(3px);
+	border-radius: 10px;
+	background-color: rgba(25, 25, 25, 1);
+	margin: 30px auto;
+	display: flex;
+	padding-block-end: 5px;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.main-card img {
+	padding: 5px;
+	margin: 8px;
+	height: 80%;
+	width: 40%;
+}
+
+.change-page {
+	margin-top: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.change-page button {
+	border-radius: 2px;
+	padding: 5px 10px;
+	margin: 5px 10px;
+	border: none;
+}
+
+.card-content {
+	margin-right: 10px;
+	width: 60%;
+}
+
+.main-card p {
+	padding: 2px;
+	margin: 5px;
+}
