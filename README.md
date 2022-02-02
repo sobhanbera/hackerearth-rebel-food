@@ -1,6 +1,8 @@
 # Getting Started with Create React App
 
 Try to participate in hackathons...
+This repo may not contain serious stuffs. Thanks
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
